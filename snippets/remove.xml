@@ -224,5 +224,6 @@
   <!-- Tools repos -->
   <remove-project name="platform/tools/apksig" />
   <remove-project name="platform/tools/metalava" />
-
+  <remove-project name="tools/platform-compat" />
+  
 </manifest>

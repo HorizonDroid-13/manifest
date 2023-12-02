@@ -11,23 +11,23 @@
 
   <!-- General repos -->
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="horizon" />
   <project path="vendor/gms" name="vendor_gms" remote="pixel-gitlab" clone-depth="1" />
-  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
-  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pixel" />
+  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="horizon" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="horizon" />
 
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
   <project path="hardware/custom/compat" name="hardware_custom_compat" remote="pixel" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="pixel" />
-  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
+  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="horizon" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="horizon" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
   <project path="packages/apps/ParanoidGlyph" name="packages_apps_ParanoidGlyph" remote="pixel" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixel" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
-  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixel" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="horizon" />
 
   <!-- Prebuilts repos -->
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="pixel" clone-depth="1" />
@@ -43,4 +43,6 @@
 
   <!-- Tools Repos -->
   <project path="tools/extract-utils" name="tools_extract-utils" remote="pixel" />
+  <project path="tools/platform-compat" name="tools_platform-compat" remote="horizon" />
+
 </manifest>
