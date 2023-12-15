@@ -26,6 +26,10 @@
           fetch="https://gitlab.com/VoidUI"
           revision="aosp-13" />
 
+  <remote  name="evo-gitlab"
+           fetch="https://gitlab.com/EvoX"
+           revision="tiramisu" />
+
   <!-- External repos -->
   <project path="external/avb" name="external_avb" remote="pixel" />
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
