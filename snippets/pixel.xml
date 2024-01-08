@@ -36,6 +36,7 @@
   <project path="external/cldr" name="external_cldr" remote="pixel" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
   <project path="external/dtc" name="external_dtc" remote="pixel" />
+  <project path="external/pdfium" name="external_pdfium" remote="horizon" revision="13-asb_23-12" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixel" />
   <project path="external/guice" name="external_guice" remote="pixel" />
   <project path="external/icu" name="external_icu" remote="pixel" />
@@ -51,9 +52,9 @@
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="pixel" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="frameworks_av" remote="horizon" />
-  <project path="frameworks/base" name="frameworks_base" remote="horizon" />
-  <project path="frameworks/native" name="frameworks_native" remote="horizon" />
+  <project path="frameworks/av" name="frameworks_av" remote="horizon" revision="13-asb_23-12" />
+  <project path="frameworks/base" name="frameworks_base" remote="horizon" revision="13-asb_23-12" />
+  <project path="frameworks/native" name="frameworks_native" remote="horizon" revision="13-asb_23-12" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
@@ -62,7 +63,7 @@
   <!-- General repos -->
   <project path="art" name="art" remote="horizon" />
   <project path="bionic" name="bionic" remote="horizon" />
-  <project path="build/make" name="build" remote="horizon">
+  <project path="build/make" name="build" remote="horizon" revision="13-asb_23-12">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -77,6 +78,7 @@
   </project>
   <project path="build/blueprint" name="build_blueprint" remote="pixel" />
   <project path="bootable/recovery" name="bootable_recovery" remote="horizon" />
+  <project path="cts" name="AfterLifePrjkt13/cts" remote="github" revision="13" />
   <project path="development" name="development" remote="pixel" />
   <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="pixel" />
   <project path="device/google/contexthub" name="device_google_contexthub" remote="pixel" />
@@ -128,7 +130,7 @@
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="pixel" />
-  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="pixel" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="horizon" revision="13-asb_23-12" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="pixel" />
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="pixel" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="pixel" />
@@ -139,7 +141,7 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="horizon" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="horizon" revision="13-asb_23-12" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="horizon" />
   
 
@@ -160,7 +162,7 @@
   <project path="system/logging" name="system_logging" remote="pixel" />
   <project path="system/media" name="system_media" remote="horizon" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="pixel" />
-  <project path="system/netd" name="system_netd" remote="pixel" />
+  <project path="system/netd" name="system_netd" remote="horizon" revision="13-asb_23-12" />
   <project path="system/nfc" name="system_nfc" remote="pixel" />
   <project path="system/security" name="system_security" remote="pixel" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
