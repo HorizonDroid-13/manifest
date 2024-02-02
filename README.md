@@ -1,6 +1,6 @@
 # HorizonDroid
 
-![HorizonDroid](https://github.com/HorizonDroidLab/.github/blob/main/zenith_Update%20ROM.png)
+![HorizonDroid](https://github.com/HorizonDroid-13/.github/blob/main/Titania%20Update%20ROM_(0).png)
 
  Getting Started
 ---------------
