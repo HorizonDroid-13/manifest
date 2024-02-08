@@ -33,6 +33,9 @@
     <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm6225/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm6225/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm6225/Android.mk" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
@@ -72,5 +75,10 @@
   <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="android_hardware_qcom_audio-ar" groups="qcom,kailua-audio" revision="lineage-20.0-caf-sm8550" remote="lineage" />
   <project path="hardware/qcom-caf/sm8550/display" name="android_hardware_qcom_display" groups="qcom" revision="lineage-20.0-caf-sm8550" remote="lineage" />
   <project path="hardware/qcom-caf/sm8550/media" name="android_hardware_qcom_media" groups="qcom,kailua-vendor" revision="lineage-20.0-caf-sm8550" remote="lineage" />
+    <project path="hardware/qcom-caf/sm6225/audio/agm" name="Xiaomi-SD685-Devs/vendor_qcom_opensource_agm" remote="github" revision="lineage-20.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/audio/pal" name="Xiaomi-SD685-Devs/vendor_qcom_opensource_arpal" remote="github" revision="lineage-20.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="Xiaomi-SD685-Devs/hardware_qcom_audio" remote="github" revision="lineage-20.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/display" name="Xiaomi-SD685-Devs/hardware_qcom_display" remote="github" revision="lineage-20.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/media" name="Xiaomi-SD685-Devs/hardware_qcom_media" remote="github" revision="lineage-20.0-caf-sm6225" />
 
 </manifest>
