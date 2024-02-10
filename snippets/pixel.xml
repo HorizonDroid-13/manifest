@@ -144,9 +144,11 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="horizon" revision="13" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="horizon" />
   
-
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pixel" clone-depth="1" />
+
+  <!-- Packages Extras -->
+  <project path="packages/apps/ViMusic" name="packages_apps_ViMusic" remote="horizon" />
 
   <!-- System Repos -->
   <project path="system/apex" name="system_apex" remote="pixel" />
