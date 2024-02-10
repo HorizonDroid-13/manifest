@@ -149,6 +149,7 @@
 
   <!-- Packages Extras -->
   <project path="packages/apps/ViMusic" name="packages_apps_ViMusic" remote="horizon" />
+  <project path="packages/apps/InnerTune" name="packages_apps_InnerTune" remote="horizon" />
 
   <!-- System Repos -->
   <project path="system/apex" name="system_apex" remote="pixel" />
