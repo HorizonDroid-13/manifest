@@ -44,7 +44,7 @@ Due to their size, some repos are configured for lfs or Large File Storage. To m
 To initialize your local repository, use this command:
 -----------------------------------------------------
 
-    repo init -u https://github.com/HorizonDroid-13/manifest.git -b 13 --git-lfs
+    repo init -u https://github.com/HorizonDroid-13/manifest.git -b 13-sm6225 --git-lfs
 
 To sync the repository, use this command:
 -----------------------------------------
