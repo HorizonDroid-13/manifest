@@ -30,6 +30,13 @@
            fetch="https://gitlab.com/EvoX"
            revision="tiramisu" />
 
+  <remote  name="archive-gms-gitlab"
+           fetch="https://gitlab.com/android5525423/android"
+           revision="thirteen" />
+
+  <!-- Root repos -->
+  <project path="libcore" name="libcore" remote="horizon" />
+
   <!-- External repos -->
   <project path="external/avb" name="external_avb" remote="pixel" />
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
@@ -84,13 +91,12 @@
   <project path="device/google/contexthub" name="device_google_contexthub" remote="pixel" />
   <project path="kernel/configs" name="kernel_configs" remote="pixel" />
   <project path="manifest" name="manifest" remote="horizon" />
-  <project path="libcore" name="libcore" remote="pixel" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
 
   <!-- Hardware repos -->
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="pixel" />
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="pixel" />
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="horizon" revision="13" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="hardware_knowles_athletico_sound_trigger_hal" remote="pixel" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="pixel" />
@@ -135,11 +141,11 @@
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="pixel" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="pixel" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="horizon" />
-  <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="pixel" />
+  <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="horizon" />
   <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" remote="pixel" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="pixel" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="horizon" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="horizon" revision="13" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="horizon" revision="13" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="horizon" />

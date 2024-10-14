@@ -12,7 +12,7 @@
   <!-- General repos -->
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="horizon" />
   <project path="vendor/aosp" name="vendor_aosp" remote="horizon" />
-  <project path="vendor/gms" name="vendor_gms" remote="pixel-gitlab" clone-depth="1" />
+  <project path="vendor/gms" name="vendor_gms" remote="archive-gms-gitlab" clone-depth="1" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="horizon" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="horizon" />
 
